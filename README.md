@@ -146,39 +146,32 @@ Using both P50 and P99 provides a more complete view of system performance. P50 
 
 Together, these metrics help assess how efficiently the LLM-powered RAG system processes and responds to user queries.
 
+---
+
 ## LLM Benchmark Results
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <strong>Models Benchmark for MongoDB RAG System</strong>
-    </td>
-    <td align="center" width="50%">
-      <strong>Models Benchmark for MySQL RAG System</strong>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
+### Models Benchmark for MongoDB RAG System
 
 The MongoDB RAG evaluation showed significant variation across the twelve LLMs. **meta-llama/llama-4-scout** achieved the highest overall performance with **62% accuracy, 70% correctness, and 20% error rate**, with a total latency of **29.54s**. **gemini-1.5-flash** achieved comparable accuracy and correctness (**61% and 70%**) while delivering substantially better latency at just **6.43s**, making it approximately **4× faster** than llama-4-scout.
 
 <br>
 
-<img src="./assets/mongodb_llm_benchmark.png" alt="Models Benchmark for MongoDB RAG System" width="100%">
+<p align="center">
+  <img src="./assets/mongodb_llm_benchmark.png" alt="Models Benchmark for MongoDB RAG System" width="700">
+</p>
 
-</td>
-<td valign="top">
+
+### Models Benchmark for MySQL RAG System
 
 The MySQL RAG evaluation showed stronger overall performance across the twelve LLMs. **gpt-4.1** and **gpt-4.1-mini** demonstrated the best results. **gpt-4.1** achieved **85% accuracy, 100% correctness, and 0% error rate**, with a total latency of **17.54s**. **gpt-4.1-mini** also achieved **85% accuracy and 0% error rate**, with **90% correctness** and **20.81s** latency. Although the Gemini models provided lower latency, they performed comparatively worse in accuracy, correctness, and error rate.
-**Note: p99 latency value for claude-3.5-sonnet-20241022 is 12.642**, which is missing in the below table.
+
+> **Note:** The P99 latency value for `claude-3.5-sonnet-20241022` is **12.642s**, which is missing from the benchmark table below.
 
 <br>
 
-<img src="./assets/mysq_llm_benchmark.png" alt="Models Benchmark for MySQL RAG System" width="100%">
-
-</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/mysq_llm_benchmark.png" alt="Models Benchmark for MySQL RAG System" width="700">
+</p>
 
 ### Key Observation
 
