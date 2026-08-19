@@ -33,12 +33,12 @@ This research evaluates the performance of **12 LLMs from leading AI organizatio
     <td align="center">
       <img src="./assets/mongodb_eval_graph.png" alt="MongoDB RAG Evaluation Graph" width="450" />
       <br />
-      <strong>Eval Graph of MongoDB RAG</strong>
+       Eval Graph of MongoDB RAG
     </td>
     <td align="center">
       <img src="./assets/mysql_eval_graph.png" alt="MySQL RAG Evaluation Graph" width="450" />
       <br />
-      <strong>Eval Graph of MySQL RAG</strong>
+    Eval Graph of MySQL RAG
     </td>
   </tr>
 </table>
