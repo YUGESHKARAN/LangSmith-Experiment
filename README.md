@@ -170,6 +170,7 @@ The MongoDB RAG evaluation showed significant variation across the twelve LLMs. 
 <td valign="top">
 
 The MySQL RAG evaluation showed stronger overall performance across the twelve LLMs. **gpt-4.1** and **gpt-4.1-mini** demonstrated the best results. **gpt-4.1** achieved **85% accuracy, 100% correctness, and 0% error rate**, with a total latency of **17.54s**. **gpt-4.1-mini** also achieved **85% accuracy and 0% error rate**, with **90% correctness** and **20.81s** latency. Although the Gemini models provided lower latency, they performed comparatively worse in accuracy, correctness, and error rate.
+**Note: p99 latency value for claude-3.5-sonnet-20241022 is 12.642**, which is missing in the below table.
 
 <br>
 
