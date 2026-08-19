@@ -25,3 +25,22 @@
 ---
 
 This research evaluates the performance of **12 LLMs from leading AI organizations - OpenAI, Meta AI, Google AI, and Anthropic** across **MySQL and MongoDB RAG systems**, using **LangSmith as the primary evaluation and observability platform**. The objective is not merely to build database RAG systems, but to systematically identify which LLMs perform best for **SQL and NoSQL database question-answering workloads**. Using LangSmith, the experiments track and compare key evaluation and performance metrics including **accuracy, correctness, error rate, P50 latency, and P99 latency**, providing a consistent framework for benchmarking LLM behavior across different database environments.
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./assets/mongodb_eval_graph.png" alt="MongoDB RAG Evaluation Graph" width="450" />
+      <br />
+      <strong>Eval Graph of MongoDB RAG</strong>
+    </td>
+    <td align="center">
+      <img src="./assets/mysql_eval_graph.png" alt="MySQL RAG Evaluation Graph" width="450" />
+      <br />
+      <strong>Eval Graph of MySQL RAG</strong>
+    </td>
+  </tr>
+</table>
+
+</div>
